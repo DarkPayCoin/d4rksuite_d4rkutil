@@ -7,7 +7,7 @@ package base58_test
 import (
 	"testing"
 
-	"github.com/btcsuite/btcutil/base58"
+	"github.com/particl/partsuite_partutil/base58"
 )
 
 var checkEncodingStringTests = []struct {

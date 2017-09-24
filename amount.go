@@ -2,7 +2,7 @@
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package btcutil
+package partutil
 
 import (
 	"errors"
@@ -33,19 +33,19 @@ const (
 func (u AmountUnit) String() string {
 	switch u {
 	case AmountMegaBTC:
-		return "MBTC"
+		return "MPART"
 	case AmountKiloBTC:
-		return "kBTC"
+		return "kPART"
 	case AmountBTC:
-		return "BTC"
+		return "PART"
 	case AmountMilliBTC:
-		return "mBTC"
+		return "mPART"
 	case AmountMicroBTC:
-		return "μBTC"
+		return "μPART"
 	case AmountSatoshi:
 		return "Satoshi"
 	default:
-		return "1e" + strconv.FormatInt(int64(u), 10) + " BTC"
+		return "1e" + strconv.FormatInt(int64(u), 10) + " PART"
 	}
 }
 

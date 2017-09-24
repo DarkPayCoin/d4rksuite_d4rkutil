@@ -2,7 +2,7 @@
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package btcutil
+package partutil
 
 import (
 	"bytes"
@@ -11,10 +11,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcutil/base58"
-	"github.com/btcsuite/btcutil/bech32"
+	"github.com/particl/partsuite_partd/btcec"
+	"github.com/particl/partsuite_partd/chaincfg"
+	"github.com/particl/partsuite_partutil/base58"
+	"github.com/particl/partsuite_partutil/bech32"
 	"golang.org/x/crypto/ripemd160"
 )
 
